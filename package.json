@@ -1,0 +1,36 @@
+{
+  "name": "karma-mocha-sample",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "blueshen <zhiyi.shen@gmail.com>",
+  "description": "a sample for karma and mocha",
+  "contributors": [ 
+    {
+      "name": "shenyanchao",
+      "email": "zhiyi.shen@gmail.com"
+    } 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blueshen/Karma-mocha-example.git"
+  },
+  "keywords": [
+    "karma",
+    "mocha",
+    "testacular"
+  ],
+  "dependencies" : {
+    "colors"   :  "*",
+    "karma-mocha" :  "0.0.1",
+    "karma-coverage" :  "0.0.1",
+    "karma-junit-reporter"    :  "0.0.1",
+    "karma-chrome-launcher" :  "0.0.1",
+    "karma-firefox-launcher" :  "0.0.1",
+    "chai" : "1.5.0"
+  },
+  "analyze": false, 
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.20"
+  }
+}
