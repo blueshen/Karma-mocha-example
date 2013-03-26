@@ -94,7 +94,6 @@ plugins = [
     'karma-mocha',
     'karma-chrome-launcher',
     'karma-firefox-launcher',
-    'karma-requirejs',
     'karma-junit-reporter',
     'karma-coverage'
 ];
