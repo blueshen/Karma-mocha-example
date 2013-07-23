@@ -21,11 +21,12 @@
   ],
   "dependencies" : {
     "colors"   :  "*",
-    "karma-mocha" :  "0.0.1",
-    "karma-coverage" :  "0.0.1",
-    "karma-junit-reporter"    :  "0.0.1",
-    "karma-chrome-launcher" :  "0.0.1",
-    "karma-firefox-launcher" :  "0.0.1",
+    "karma" : "0.9.5",
+    "karma-mocha" :  "0.0.4",
+    "karma-coverage" :  "0.0.4",
+    "karma-junit-reporter"    :  "0.0.2",
+    "karma-chrome-launcher" :  "0.0.2",
+    "karma-firefox-launcher" :  "0.0.3",
     "chai" : "1.5.0"
   },
   "analyze": false, 
