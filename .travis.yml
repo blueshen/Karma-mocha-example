@@ -7,7 +7,7 @@ before_install:
   - "sh -e /etc/init.d/xvfb start"
 
 before_script:
-  - npm install -g karma
+  - npm install
 
 script:
-  - karma start  --browsers=Firefox
+  - node_modules/karma/bin/karma start --browsers=Firefox
